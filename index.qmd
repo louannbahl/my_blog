@@ -10,5 +10,41 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
+**Création du projet du site sous github/ Q6**:
+Cela permet de voir l'état actuel des fichiers, ainsi que l'historique des modifications et des contributions des auteurs
 
+
+**Librairie Heron Q2**:
+Ce package contient trois fonctions pour calculer l'aire d'un triangle à partir de la longueur de ses trois côtés en utilisant la formule de Héron. Une fonction intermédiaire nommée "demi-périmètre" est incluse pour calculer le demi-périmètre du triangle. La fonction "heron" permet de calculer l'aire du triangle à l'aide de la formule de Héron, tandis que la fonction "heron_1" permet également de calculer l'aire du triangle tout en renvoyant des erreurs si certaines conditions ne sont pas remplies. Pour installer le package:
+```{r}
+#install.packages("remotes", repos = "https://cran.rstudio.com/)
+#remotes::install_github("louannbahl/heron")
+```
+**Question5**Installez le package heron depuis votre dépôt github en utilisant le package remotes.Utilisez renv::snapshot() et vérifier que le package heron est bien mentionné dans votre fichier renv.lock à la racine de votre projet de blog.
+
+En utilisant la reponse de la Q2 de post blog cela n'a pas fonctionné
+
+
+```{r}
+#library(targets)
+#tar_script("_targets.R", script = "posts/post-with-code/_targets.R")
+```
+
+**Triangle de Sierpinski**: Ce triangle se construit en plusieurs étapes:
+1-On commence avec un triangle
+2-On le divise en 4 en reliant le milieu de chaque côté
+3-on supprime le triangle du milieu
+4-on recommence le processus avec les triangles restants
+   
+
+```{r}
+#tar_read("plot_1")
+#tar_make()
+#tar_read("plot_2")
+#tar_read("plot_3")
+#tar_read("plot_4")
+
+```
+
+Problème: cela ne fonctionne pas
 

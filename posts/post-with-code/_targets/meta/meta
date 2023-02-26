@@ -1,0 +1,3 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+data|stem|c5810940fa236cc8|43fae4011a0626f4|136bf5e07fbd9b1c|1588979285||t19414.4923951285s|d07e2e962de596ec|1750|rds|local|vector|||0.08|le package tibble a été compilé avec la version R 4.2.2|
+model|stem|af47cc440b908482|ae83bc723fe2997c|cd48cc253687e0e3|1816327236||t19414.4923975249s|1254f8a9a0ffbd1f|107|rds|local|vector|||0.01||

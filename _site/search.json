@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "my_blog",
+    "section": "",
+    "text": "Création du projet du site sous github/ Q6: Cela permet de voir l’état actuel des fichiers, ainsi que l’historique des modifications et des contributions des auteurs\nLibrairie Heron Q2: Ce package contient trois fonctions pour calculer l’aire d’un triangle à partir de la longueur de ses trois côtés en utilisant la formule de Héron. Une fonction intermédiaire nommée “demi-périmètre” est incluse pour calculer le demi-périmètre du triangle. La fonction “heron” permet de calculer l’aire du triangle à l’aide de la formule de Héron, tandis que la fonction “heron_1” permet également de calculer l’aire du triangle tout en renvoyant des erreurs si certaines conditions ne sont pas remplies. Pour installer le package:\n\n#install.packages(\"remotes\", repos = \"https://cran.rstudio.com/)\n#remotes::install_github(\"louannbahl/heron\")\n\nQuestion5Installez le package heron depuis votre dépôt github en utilisant le package remotes.Utilisez renv::snapshot() et vérifier que le package heron est bien mentionné dans votre fichier renv.lock à la racine de votre projet de blog.\nEn utilisant la reponse de la Q2 de post blog cela n’a pas fonctionné\n\n#library(targets)\n#tar_script(\"_targets.R\", script = \"posts/post-with-code/_targets.R\")\n\nTriangle de Sierpinski: Ce triangle se construit en plusieurs étapes: 1-On commence avec un triangle 2-On le divise en 4 en reliant le milieu de chaque côté 3-on supprime le triangle du milieu 4-on recommence le processus avec les triangles restants\n\n#tar_read(\"plot_1\")\n#tar_make()\n#tar_read(\"plot_2\")\n#tar_read(\"plot_3\")\n#tar_read(\"plot_4\")\n\nProblème: cela ne fonctionne pas\n\n\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nFeb 21, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nFeb 18, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  }
+]
